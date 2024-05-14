@@ -38,7 +38,7 @@ const Navbar = () => {
             <i className="fa-solid fa-user-pen"></i>
           </Link>
         </li>
-        <li className="nav-item d-none d-sm-inline-block">
+        <li className="nav-item">
           <strong
             onClick={cerrarSesion}
             className="nav-link text-light"
