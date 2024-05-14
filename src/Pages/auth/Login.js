@@ -92,7 +92,6 @@ const Login = () => {
         
         const GuardarIDUser = async () => {
           const response = await APIInvoke.invokeGET(`/api/usuarios/mail/${mail}`, {});
-          console.log(response)
           localStorage.setItem('id', response._id);
         };
         GuardarIDUser();
